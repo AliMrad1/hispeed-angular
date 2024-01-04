@@ -20,10 +20,12 @@
   background-image: url('../../assets/wallpaper.jpg');
   background-size: cover; /* or background-size: contain; */
   background-repeat: no-repeat;
-  background-position: center center;
+  /* background-position: center center; */
 
 
   }
+  
+
   
   .bottom-img{
     bottom: 0;
