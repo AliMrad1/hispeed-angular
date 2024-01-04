@@ -618,7 +618,6 @@ b i:last-child {
     }
 }
 
-
 /* text rotate */
 
 .box-headline {
@@ -629,6 +628,7 @@ b i:last-child {
 .box-words-wrapper {
     display: inline-block;
     position: relative;
+    width: 100%;
 }
 
 .box-words-wrapper b {
