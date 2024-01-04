@@ -1,3 +1,6 @@
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 /*
 * Box Theme
 * Created by : Ahmed Eissa
@@ -53,6 +56,67 @@ body {
 .main-container {
     padding: 100px 0;
 }
+
+.hh{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.nav-options-list{
+    display: flex;
+    flex-direction:row;
+    z-index: 2;
+    /* background-color: #F5B700; */
+    width:450px;
+    justify-content: end;
+    gap:20%;
+    list-style-type: none;
+    color: white;
+    font-size: 16px;
+    padding-right: 10px;
+    align-items: center;
+    margin-top: 3%;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .nav-option-list {
+      display: none; /* Show the unordered list on desktop */
+    }
+
+    .forDisplay{
+        display: block;
+    }
+
+    .box-primary-nav-trigger {
+      display: none; /* Hide the menu button on desktop */
+    }
+    .box-primary-nav{
+        display: none;
+    }
+  }
+
+
+  @media only screen and (max-width: 767px) {
+    .nav-option-list {
+        display: none; /* do not Show the unordered list on desktop */
+      }
+
+      .forDisplay{
+        display: none;
+    }
+  
+      .box-primary-nav-trigger {
+        display: block; /* show the menu button on desktop */
+      }
+      .box-primary-nav{
+          display: block;
+      }
+    }
+
 
 .center {
     text-align: center;
@@ -185,6 +249,9 @@ h5 {
     height: 50px;
     width: 100%;
     z-index: 3;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -221,15 +288,37 @@ h5 {
 .box-header.is-visible {
     -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
+    
 }
+
 
 .box-header.menu-is-open {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
 .box-logo {
-    display: block;
+    display: flex;
     padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-us{
+    width:150px;
+border-radius: 20px;
+border: 1px solid white;
+display :flex;
+align-items: center;
+justify-content: center;
+padding: 10px;
+color: white;
+list-style-type: none;
+}
+
+.contact-us:hover{
+    background-color: #F5B700;
+    border: 1px solid #F5B700;
+    cursor: pointer; 
 }
 
 .box-primary-nav-trigger {
@@ -316,7 +405,7 @@ h5 {
     height: 30px;
     line-height: 30px;
     right: 10px;
-    top: 50%;
+    top: 40%;
     bottom: auto;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -429,6 +518,7 @@ h5 {
     display: table;
     height: 100vh;
     width: 100%;
+    
 }
 
 .box-intro .table-cell {
@@ -528,7 +618,6 @@ b i:last-child {
     }
 }
 
-
 /* text rotate */
 
 .box-headline {
@@ -539,6 +628,7 @@ b i:last-child {
 .box-words-wrapper {
     display: inline-block;
     position: relative;
+    width: 100%;
 }
 
 .box-words-wrapper b {
