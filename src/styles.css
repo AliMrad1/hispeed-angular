@@ -57,12 +57,12 @@ body {
     padding: 100px 0;
 }
 
-.hh{
-    width: 100%;
+/* .hh{
+    width: 100vw;
     display: flex;
     align-items:center;
     justify-content: center;
-}
+} */
 
 
 .nav-options-list{

@@ -58,7 +58,7 @@ body {
 }
 
 .hh{
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -160,6 +160,7 @@ h3 {
 
 h5 {
     color: #ffbf00;
+    width: 100vw;
 }
 
 
@@ -623,12 +624,13 @@ b i:last-child {
 .box-headline {
     font-size: 130px;
     line-height: 1.0;
+    margin-top: 100px;
 }
 
 .box-words-wrapper {
     display: inline-block;
     position: relative;
-    width: 100%;
+    width: 100vw;
 }
 
 .box-words-wrapper b {
@@ -637,6 +639,7 @@ b i:last-child {
     white-space: nowrap;
     left: 0;
     top: 0;
+    width:100vw;
 }
 
 .box-words-wrapper b.is-visible {
@@ -649,6 +652,7 @@ b i:last-child {
 
 .no-js .box-words-wrapper b.is-visible {
     opacity: 1;
+    width:100vw;
 }
 
 
@@ -774,6 +778,13 @@ b i:last-child {
         -webkit-transform: translateZ(-20px) rotateX(-90deg);
         transform: translateZ(-20px) rotateX(-90deg);
     }
+}
+
+@media (max-width:840px) {
+    .box-headline{
+        font-size: 50px;
+    }
+    
 }
 
 
@@ -1224,7 +1235,7 @@ textarea:focus {
 
 @media only screen and (max-width: 670px) {
     .box-headline {
-        font-size: 100px;
+        font-size: 50px;
     }
     .box-intro h5 {
         font-size: 12px;
@@ -1250,7 +1261,7 @@ textarea:focus {
 
 @media only screen and (max-width: 520px) {
     .box-headline {
-        font-size: 80px;
+        font-size: 40px;
     }
     .box-intro h5 {
         font-size: 12px;
