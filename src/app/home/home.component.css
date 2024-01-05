@@ -10,6 +10,7 @@
     width: 100%;
     overflow: hidden;
     height: 100vh;
+    padding: 0;
     /* Set the fixed height for the container */
   }
   
@@ -21,8 +22,7 @@
   background-size: cover; /* or background-size: contain; */
   background-repeat: no-repeat;
   background-position: center center;
-
-
+padding: 0;
   }
   
 

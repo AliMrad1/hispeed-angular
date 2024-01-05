@@ -37,7 +37,7 @@ body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
-    color: #999
+    color: #999;
 }
 
 .no-padding {
@@ -176,9 +176,11 @@ h5 {
 
 /* headr
 ==================================================*/
-
+.forDisplay{
+    margin-top: 10px;
+}
 .box-header {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.3);
@@ -249,7 +251,7 @@ h5 {
     display: inline-block;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 40%;
     bottom: auto;
     right: auto;
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -260,6 +262,7 @@ h5 {
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
     list-style: none;
+    
 }
 
 .box-primary-nav-trigger .box-menu-icon::before,
@@ -313,7 +316,7 @@ h5 {
     height: 30px;
     line-height: 30px;
     right: 10px;
-    top: 50%;
+    top: 40%;
     bottom: auto;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -435,6 +438,7 @@ h5 {
     display: table-cell;
     text-align: center;
     /* vertical-align: middle; */
+    border: none;
 }
 
 .hh{

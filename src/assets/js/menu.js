@@ -32,9 +32,10 @@ console.log("Here")
 
 	//open/close primary navigation
 	$('.box-primary-nav-trigger').on('click', function(){
+		console.log("Changing")
 		$('.box-menu-icon').toggleClass('is-clicked'); 
 		$('.box-header').toggleClass('menu-is-open');
-		
+		console.log("Changing1")
 		//in firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
 		if( $('.box-primary-nav').hasClass('is-visible') ) {
 			$('.box-primary-nav').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
