@@ -177,7 +177,7 @@ h5 {
 /* headr
 ==================================================*/
 .forDisplay{
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 .box-header {
     /* position: absolute; */
@@ -1249,6 +1249,7 @@ align-items: center;
 justify-content: center;
 padding: 10px;
 color: white;
+margin-bottom: 5px;
 list-style-type: none;
 }
 
