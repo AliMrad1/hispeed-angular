@@ -25,7 +25,7 @@ const routes: Routes = [
   {path:'', component:HomeComponent},
   {path:'about', component:AboutUsComponent},
   {path:'apply', component:ApplyforjobComponent},
-  // {path:'0', component:HomeComponent},
+  {path:'0',component:HomeComponent},
 ];
 
 @NgModule({

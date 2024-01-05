@@ -1,4 +1,6 @@
+
 jQuery(document).ready(function($){
+	console.log("Here1")
 	//if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
 	var MQL = 1170;
 console.log("Here")
